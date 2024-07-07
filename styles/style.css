@@ -9,14 +9,14 @@ body{
     font-family: "Merriweather", serif;
 
 }
-/* banner section style starts here */
+/* header section styles start here */
 
 .banner-container{
     max-width: 1320px;
     height: 600px;
     margin: 0 auto;
     margin-top: 20px;
-    background-image: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url('../images/Banner\ Image.png');
+    background-image: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url('/images/banner-image.png');
     border-radius: 16px;
     background-size: cover;
     background-position: center;
@@ -44,11 +44,14 @@ body{
     font-weight: 700;
     line-height: 95px;
 }
-/* second container section start */
+/* header section styles start here */
+
+/* second section styles start */
 .second-section-container{
     width: 802.9px;
     height: 806px;
     margin: 0 auto;
+    margin-bottom: 120px;
 }
 .second-section-content{
     display: flex;
@@ -85,9 +88,68 @@ body{
 .image-container img{
     height: 100%;
     width: 100%;
-    background: url(happy-new-year-3d-letters-sign-coloful-background-blurred-fireworks-2024-new-year-party);
 }
-/* second container section end */
+/* second section styles end */
+
+/* midnight party section styles start  */
+.midnight-party-container{
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    background-image: url('/images/vector-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.leftside-content{
+    width: 50%;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.leftside-content h1{
+    font-size: 64px;
+    font-weight: 900;
+    color: rgb(255,255,255);
+    margin-bottom: 24px;
+    /* margin-left: 100px; */
+}
+.leftside-content p{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 80px;
+    margin-bottom: 48px;
+}
+ #midnight-btn{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    color: rebeccapurple;
+}
+
+
+
+.rightside-content{
+    border: 2px solid red;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightside-content img{
+    height: 349.16px;
+    width: 464.65px;
+}
+
+
+/* midnight party section styles end */
+
 
 
 
