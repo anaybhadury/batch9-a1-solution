@@ -11,6 +11,7 @@ body{
     font-family: "Merriweather", serif;
 
 }
+
 /* header section styles start here */
 
 .banner-container{
@@ -233,11 +234,11 @@ body{
 }
 /* second content */
 .second-content img{
-    border: 20px solid red;
+    border: 10px solid red;
     border-radius: 500px;
     width: 364.84px;
-height: 364.84px;
-
+    height: 364.84px;
+    padding: 10px;
 }
 
 /* third content */
@@ -262,6 +263,70 @@ height: 364.84px;
 }
 
 /* comming soon section styles end */
+
+/* holiday sale section styles start */
+.holiday-section-container{
+    width: 1320px;
+    height: 986.07px;
+    border: 2px solid darkblue;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    position: relative;
+}
+.holiday-text-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 1068px;
+    height: 260px;
+    margin: 0 auto;
+    text-align: center;
+}
+.holiday-text-content h5{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.holiday-text-content h2{
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+#holiday{
+    color: rgb(255, 0, 0);
+}
+.holiday-text-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 64px;
+}
+/* solid color */
+.solid-color{
+    width: 1320px;
+    height: 229px;
+    background-color: red;
+    position: absolute;
+    top: 77%;
+}
+.giftbox{
+    width: 600px;
+    height: 500px;
+    position: relative;
+    z-index: 1;
+}
+.discount{
+    position: absolute;
+    bottom: 40%;
+    left: 58%;
+    /* position: absolute;
+    z-index: 1; */
+}
+/* holiday sale section styles end */
 
  
 
