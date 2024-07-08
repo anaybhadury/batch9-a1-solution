@@ -195,6 +195,74 @@ body{
 }
 /* new park hotel section styles end */
 
+/* comming soon section styles start */
+.comming-soon-container{
+    width: 1320px;
+    height: 463px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+.comming-soon-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 463px;
+}
+.first-content h4{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 104;
+    margin-bottom: 16px;
+}
+.first-content h2{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+.first-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    width: 393px;
+    height: 128px;
+}
+/* second content */
+.second-content img{
+    border: 20px solid red;
+    border-radius: 500px;
+    width: 364.84px;
+height: 364.84px;
+
+}
+
+/* third content */
+.third-content h1{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    margin-top: 70px;
+}
+.third-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.third-content img{
+    width: 140px;
+    height: 130px; 
+}
+
+/* comming soon section styles end */
+
  
 
 
