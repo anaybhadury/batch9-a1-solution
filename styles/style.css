@@ -370,7 +370,64 @@ body{
 }
 /* portfolio section styles end */
 
+/* newsletter section styles start */
+.newsletter-section-container{
+    width: 1320px;
+    height: 616px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
 
+.newsletter-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.newsletter-content img{
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.newsletter-content h2{
+    margin-bottom: 40px;
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(7, 2, 17);
+    margin-bottom: 22px;
+}
+.newsletter-content p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Inter;
+    color: rgba(7, 2, 17, 0.6);
+    margin-bottom: 48px;
+    line-height: 30px;
+}
+.search-subscribe input{
+    padding: 15px 150px;
+    border: none;
+    /* border-radius: 50px 0 0 50px; */
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    color: rgba(7, 2, 17, 0.3);
+    font-size: 16px;
+    font-weight: 400px;    
+}
+.search-subscribe button{
+    padding: 13px 30px 14px 30px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 0 50px 50px 0;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    margin-left: -150px;
+}
+/* newsletter section styles end */
 
 
 
