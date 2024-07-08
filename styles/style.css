@@ -268,7 +268,6 @@ body{
 .holiday-section-container{
     width: 1320px;
     height: 986.07px;
-    border: 2px solid darkblue;
     margin: 0 auto;
     margin-bottom: 120px;
     position: relative;
@@ -328,8 +327,48 @@ body{
 }
 /* holiday sale section styles end */
 
- 
-
+/* portfolio section styles start */
+.portfolio-section-container{
+    width: 1320px;
+    height: 1163px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+.portfolio-text-content h3{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.portfolio-text-content h5{
+    font-size: 48px;
+    font-weight: 900px;
+    color: rgb(7, 2, 17);
+    margin-bottom: 10px;
+}
+.portfolio-text-content p{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.6);
+    margin-bottom: 45px;
+}
+/* item section */
+.portfolio-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.item{
+    width: 424px;
+    height: 450px;
+}
+.item img{
+    height: 100%;
+    width: 100%;
+}
+/* portfolio section styles end */
 
 
 
