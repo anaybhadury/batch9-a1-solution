@@ -371,6 +371,11 @@ body{
 /* portfolio section styles end */
 
 /* newsletter section styles start */
+
+/* input:focus{
+    outline: none;
+} */
+
 .newsletter-section-container{
     width: 1320px;
     height: 616px;
@@ -407,10 +412,14 @@ body{
     margin-bottom: 48px;
     line-height: 30px;
 }
+.search-subscribe{
+    display: flex;
+    align-items: center;
+}
 .search-subscribe input{
-    padding: 15px 150px;
+    padding: 16px;
+    padding-right: 350px;
     border: none;
-    /* border-radius: 50px 0 0 50px; */
     border-radius: 50px;
     background-color: rgb(255, 255, 255);
     color: rgba(7, 2, 17, 0.3);
@@ -418,7 +427,7 @@ body{
     font-weight: 400px;    
 }
 .search-subscribe button{
-    padding: 13px 30px 14px 30px;
+    padding: 14px 30px 14px 30px;
     border: none;
     font-size: 20px;
     font-weight: 600;
@@ -428,6 +437,60 @@ body{
     margin-left: -150px;
 }
 /* newsletter section styles end */
+
+/* footer section styles start */
+.footer-container{
+    width: 1600px;
+    height: 609px;
+    border: 2px solid red;
+    background-color: rgb(7, 2, 17);
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.contact{
+    display: flex;
+    font-family: Inter;
+}
+.footer-first-section{
+    display: flex;
+    color: #ffff;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.hr{
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    gap: 20px;
+    
+}
+.social-icons img{
+    width: 50px;
+    height: 50px;
+}
+.footer-last-section{
+    display: flex;
+    color: #ffff;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+/* footer section styles end */
+
+
 
 
 
